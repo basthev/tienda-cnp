@@ -1,0 +1,3 @@
+[submodule "tienda-CNP2"]
+	path = tienda-CNP2
+	url = https://github.com/basthev/tienda-angular-cnp.git
