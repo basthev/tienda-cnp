@@ -16,4 +16,9 @@ let mostrarProductos = (req, res) =>{
         })
     })
 
+}   
+
+    module.exports = {
+
+    mostrarProductos
 }

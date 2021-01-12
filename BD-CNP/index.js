@@ -4,6 +4,8 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const app = express();
 
+app.use( require('./rutas/productos.ruta'))
+
 
 //conexion a la base de datos
 mongoose.connect('mongodb://localhost:27017/BD-Nuevo-Porvenir', {useNewUrlParser: true,useUnifiedTopology: true,useFindAndModify: false,useCreateIndex: true
